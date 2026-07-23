@@ -81,7 +81,7 @@ public class SortingWorkbenchMenu extends AbstractContainerMenu {
                ItemStack takenStack = outputStack.copy();
                takenStack.setCount(takeCount);
                SortingWorkbenchMenu.this.inSlot.remove(takeCount);
-               SortingWorkbenchMenu.this.safeInsert(takenStack);
+                SortingWorkbenchMenu.this.moveItemStackTo(takenStack, 2, 38, false);
                SortingWorkbenchMenu.this.level
                   .playSound(
                      null,

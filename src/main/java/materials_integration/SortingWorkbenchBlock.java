@@ -15,7 +15,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
-import net.minecraft.world.level.block.state.BlockStateDefinition;
+import com.mojang.serialization.MapCodec;
+import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.pathfinder.PathComputationType;
 import net.minecraft.world.phys.BlockHitResult;
@@ -44,7 +45,7 @@ public class SortingWorkbenchBlock extends HorizontalDirectionalBlock {
    }
 
    @Override
-   protected void createBlockStateDefinition(BlockStateDefinition.Builder<Block, BlockState> builder) {
+   protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
       builder.add(FACING);
    }
 
@@ -79,6 +80,11 @@ public class SortingWorkbenchBlock extends HorizontalDirectionalBlock {
    }
 
    @Override
+   protected MapCodec<? extends SortingWorkbenchBlock> codec() {
+      return MapCodec.unit(this);
+   }
+
+   @Override
    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
       if (level.isClientSide) {
          return InteractionResult.SUCCESS;
@@ -88,7 +94,7 @@ public class SortingWorkbenchBlock extends HorizontalDirectionalBlock {
       }
    }
 
-   private MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
+    protected MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
       return new SimpleMenuProvider(
          (containerId, playerInventory, player) -> new SortingWorkbenchMenu(containerId, playerInventory),
          Component.translatable("container.materials_integration.sorting_workbench")

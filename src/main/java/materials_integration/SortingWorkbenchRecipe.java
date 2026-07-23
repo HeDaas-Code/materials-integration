@@ -12,7 +12,7 @@ import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.Container;
+import net.minecraft.world.item.crafting.SingleRecipeInput;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -22,7 +22,7 @@ import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-public class SortingWorkbenchRecipe implements Recipe<Container> {
+public class SortingWorkbenchRecipe implements Recipe<SingleRecipeInput> {
    private final ResourceLocation id;
    private final Item input;
    private final TagKey<Item> outputTag;
@@ -34,13 +34,13 @@ public class SortingWorkbenchRecipe implements Recipe<Container> {
    }
 
    @Override
-   public boolean matches(Container container, Level level) {
-      ItemStack inputStack = container.getItem(0);
+   public boolean matches(SingleRecipeInput input, Level level) {
+      ItemStack inputStack = input.getItem(0);
       return !inputStack.isEmpty() && inputStack.getItem() == this.input;
    }
 
    @Override
-   public ItemStack assemble(Container container, HolderLookup.Provider registryAccess) {
+   public ItemStack assemble(SingleRecipeInput input, HolderLookup.Provider registryAccess) {
       return ItemStack.EMPTY;
    }
 
@@ -88,7 +88,7 @@ public class SortingWorkbenchRecipe implements Recipe<Container> {
    }
 
    public static class Serializer implements RecipeSerializer<SortingWorkbenchRecipe> {
-      private static final MapCodec<SortingWorkbenchRecipe> CODEC = RecordCodecBuilder.create(instance ->
+      private static final MapCodec<SortingWorkbenchRecipe> CODEC = RecordCodecBuilder.mapCodec(instance ->
          instance.group(
             com.mojang.serialization.Codec.STRING.fieldOf("input").forGetter(r -> BuiltInRegistries.ITEM.getKey(r.getInput()).toString()),
             com.mojang.serialization.Codec.STRING.fieldOf("output_tag").forGetter(r -> r.getOutputTag().location().toString())

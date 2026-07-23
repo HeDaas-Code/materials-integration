@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 
-public class SortingWorkbenchSyncPacket {
+public class SortingWorkbenchSyncPacket implements CustomPacketPayload {
    public static final CustomPacketPayload.Type<SortingWorkbenchSyncPacket> TYPE =
       new CustomPacketPayload.Type<>(ResourceLocation.fromNamespaceAndPath("materials_integration", "sorting_workbench_sync"));
 

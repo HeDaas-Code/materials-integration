@@ -7,7 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 
-public class SortingWorkbenchScrollPacket {
+public class SortingWorkbenchScrollPacket implements CustomPacketPayload {
    public static final CustomPacketPayload.Type<SortingWorkbenchScrollPacket> TYPE =
       new CustomPacketPayload.Type<>(ResourceLocation.fromNamespaceAndPath("materials_integration", "sorting_workbench_scroll"));
 
@@ -32,6 +32,7 @@ public class SortingWorkbenchScrollPacket {
       buf.writeFloat(packet.scrollOffset);
    }
 
+   @Override
    public CustomPacketPayload.Type<? extends CustomPacketPayload> type() {
       return TYPE;
    }

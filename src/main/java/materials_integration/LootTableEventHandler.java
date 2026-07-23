@@ -6,9 +6,13 @@ import net.minecraft.advancements.critereon.EnchantmentPredicate;
 import net.minecraft.advancements.critereon.ItemEnchantmentsPredicate;
 import net.minecraft.advancements.critereon.ItemSubPredicates;
 import net.minecraft.advancements.critereon.MinMaxBounds.Ints;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.LootPool;
@@ -23,6 +27,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.EventBusSubscriber.Bus;
 import net.neoforged.neoforge.event.LootTableLoadEvent;
+import net.neoforged.neoforge.server.ServerLifecycleHooks;
 
 @EventBusSubscriber(modid = "materials_integration", bus = Bus.GAME)
 public class LootTableEventHandler {
@@ -35,7 +40,7 @@ public class LootTableEventHandler {
          tagsLoaded = true;
       }
 
-      ResourceLocation tableName = event.getName().location();
+      ResourceLocation tableName = event.getName();
       if (tableName.getPath().startsWith("blocks/")) {
          String blockPath = tableName.getPath().substring(7);
          ResourceLocation blockId = ResourceLocation.fromNamespaceAndPath(tableName.getNamespace(), blockPath);
@@ -70,17 +75,25 @@ public class LootTableEventHandler {
       return null;
    }
 
-   private static LootItemCondition silkTouchCondition() {
-      return MatchTool.toolMatches(
-         net.minecraft.advancements.critereon.ItemPredicate.Builder.item()
-            .withSubPredicate(
-               ItemSubPredicates.ENCHANTMENTS,
-               ItemEnchantmentsPredicate.enchantments(
-                  List.of(new EnchantmentPredicate(BuiltInRegistries.ENCHANTMENT.getHolderOrThrow(Enchantments.SILK_TOUCH), Ints.atLeast(1)))
-               )
-            )
-      ).build();
-   }
+    private static LootItemCondition.Builder silkTouchCondition() {
+       MinecraftServer server = ServerLifecycleHooks.getCurrentServer();
+       if (server == null) {
+          return MatchTool.toolMatches(
+             net.minecraft.advancements.critereon.ItemPredicate.Builder.item()
+          );
+       }
+       HolderLookup.RegistryLookup<Enchantment> enchLookup = server.registryAccess().lookupOrThrow(Registries.ENCHANTMENT);
+       net.minecraft.core.Holder<Enchantment> silkTouch = enchLookup.getOrThrow(Enchantments.SILK_TOUCH);
+       return MatchTool.toolMatches(
+          net.minecraft.advancements.critereon.ItemPredicate.Builder.item()
+             .withSubPredicate(
+                ItemSubPredicates.ENCHANTMENTS,
+                ItemEnchantmentsPredicate.enchantments(
+                   List.of(new EnchantmentPredicate(silkTouch, Ints.atLeast(1)))
+                )
+             )
+       );
+    }
 
    private static void replaceLootTable(LootTableLoadEvent event, Block block, String dropType) {
       String[] parts = dropType.split("_");
@@ -138,7 +151,7 @@ public class LootTableEventHandler {
                .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0F)))
          );
 
-         LootTable.Builder newTable = LootTable.lootTable().withPool(poolBuilder);
+         LootTable newTable = LootTable.lootTable().withPool(poolBuilder).build();
          event.setTable(newTable);
       }
    }

@@ -117,7 +117,7 @@ public class PlaceBlock {
                            Direction clickedFace = event.getFace();
                            if (clickedFace != null) {
                               BlockPos placePos = pos.relative(clickedFace);
-                              if (level.isAir(placePos)) {
+                              if (level.getBlockState(placePos).isAir()) {
                                  BlockItem blockItem = createBlockItem(stateToPlace);
                                  if (blockItem != null) {
                                     ItemStack tempStack = new ItemStack(blockItem);

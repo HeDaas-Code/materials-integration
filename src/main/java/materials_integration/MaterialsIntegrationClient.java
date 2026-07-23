@@ -4,7 +4,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.EventBusSubscriber.Bus;
-import net.neoforged.neoforge.client.event.RegisterRenderersEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 
 @EventBusSubscriber(
    modid = "materials_integration",
@@ -13,7 +13,7 @@ import net.neoforged.neoforge.client.event.RegisterRenderersEvent;
 )
 public class MaterialsIntegrationClient {
    @SubscribeEvent
-   public static void onClientSetup(RegisterRenderersEvent event) {
+   public static void onClientSetup(EntityRenderersEvent.RegisterRenderers event) {
       // Render type registration handled by block model JSON
    }
 }
