@@ -29,3 +29,10 @@ type = "optional"
 versionRange = "[1.0,)"
 ordering = "AFTER"
 side = "BOTH"
+
+[[dependencies.materials_integration]]
+modId = "alexscaves"
+type = "required"
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"
