@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:warped_planks"
+    }
+  ],
+  "result": "minecraft:warped_trapdoor"
+}

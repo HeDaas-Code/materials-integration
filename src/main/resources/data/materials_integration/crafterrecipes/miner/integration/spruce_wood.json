@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "miner_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:log_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:spruce_wood",
+    "count": 4
+}

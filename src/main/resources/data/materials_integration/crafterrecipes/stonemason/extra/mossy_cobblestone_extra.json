@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 5,
+      "item": "minecraft:mossy_cobblestone"
+    }
+  ],
+  "count": 4,
+  "result": "domum_ornamentum:mossy_cobblestone_extra"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "count": 1,
+  "result": "minecraft:iron_trapdoor"
+}

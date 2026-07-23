@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_sand",
+    "minecraft:sand",
+    {"id": "mowziesmobs:raked_sand","required": false},
+    {"id": "mowziesmobs:red_raked_sand","required": false},
+    {"id": "slab_topographic:gravel_slab","required": false},
+    {"id": "slab_topographic:red_sand_slab","required": false},
+    {"id": "slab_topographic:sand_slab","required": false}
+  ]
+}

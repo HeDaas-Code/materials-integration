@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "minecraft:bamboo_planks"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "count": 3,
+  "result": "minecraft:bamboo_sign"
+}

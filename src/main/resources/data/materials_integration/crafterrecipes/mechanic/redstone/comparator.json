@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "count": 3,
+      "item": "materials_integration:rock_integration"
+    }
+  ],
+  "result": "minecraft:comparator"
+}

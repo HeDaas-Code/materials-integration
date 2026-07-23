@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "count": 6,
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": "domum_ornamentum:blockbarreldeco_onside"
+}

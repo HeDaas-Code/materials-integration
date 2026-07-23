@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_planks",
+    {"id": "quark:vertical_oak_planks","required": false},
+    "minecraft:spruce_planks",
+    {"id": "quark:vertical_spruce_planks","required": false},
+    "minecraft:birch_planks",
+    {"id": "quark:vertical_birch_planks","required": false},
+    "minecraft:jungle_planks",
+    {"id": "quark:vertical_jungle_planks","required": false},
+    "minecraft:acacia_planks",
+    {"id": "quark:vertical_acacia_planks","required": false},
+    "minecraft:dark_oak_planks",
+    {"id": "quark:vertical_dark_oak_planks","required": false},
+    "minecraft:mangrove_planks",
+    {"id": "quark:vertical_mangrove_planks","required": false},
+    "minecraft:cherry_planks",
+    {"id": "quark:vertical_cherry_planks","required": false},
+    {"id": "quark:ancient_planks","required": false},
+    {"id": "quark:vertical_ancient_planks","required": false},
+    {"id": "quark:azalea_planks","required": false},
+    {"id": "quark:vertical_azalea_planks","required": false},
+    {"id": "quark:blossom_planks","required": false},
+    {"id": "quark:vertical_blossom_planks","required": false},
+    {"id": "alexscaves:pewen_planks","required": false},
+    {"id": "alexscaves:thornwood_planks","required": false},
+    {"id": "born_in_chaos_v1:scorched_planks","required": false},
+    {"id": "ribbits:mossy_oak_planks","required": false}
+  ]
+}

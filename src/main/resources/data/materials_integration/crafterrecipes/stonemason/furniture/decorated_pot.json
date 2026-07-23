@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:brick"
+    }
+  ],
+  "result": "minecraft:decorated_pot"
+}

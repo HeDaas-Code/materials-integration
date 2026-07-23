@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "sawmill_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:planks_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:oak_button",
+    "count": 4
+}

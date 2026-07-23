@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": "minecraft:white_dye"
+}

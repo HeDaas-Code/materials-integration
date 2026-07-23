@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_smelting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:sea_pickle"
+    }
+  ],
+  "result": "minecraft:lime_dye"
+}

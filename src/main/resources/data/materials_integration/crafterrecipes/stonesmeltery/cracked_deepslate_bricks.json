@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "item": "minecraft:deepslate_bricks"
+    }
+  ],
+  "result": "minecraft:cracked_deepslate_bricks"
+}

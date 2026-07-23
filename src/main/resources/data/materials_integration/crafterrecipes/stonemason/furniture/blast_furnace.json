@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 3,
+      "item": "materials_integration:rock_integration"
+    }
+  ],
+  "result": "minecraft:blast_furnace"
+}

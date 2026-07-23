@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "count": 3,
+  "result": "minecraft:paper"
+}

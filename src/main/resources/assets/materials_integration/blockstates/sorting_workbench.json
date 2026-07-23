@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "materials_integration:block/sorting_workbench"
+    },
+    "facing=south": {
+      "model": "materials_integration:block/sorting_workbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "materials_integration:block/sorting_workbench",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "materials_integration:block/sorting_workbench",
+      "y": 90
+    }
+  }
+}

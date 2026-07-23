@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 40,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "materials_integration:stone_integration"
+  },
+  "result": "materials_integration:rock_integration"
+}

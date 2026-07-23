@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "count": 9,
+  "result": "minecraft:redstone"
+}

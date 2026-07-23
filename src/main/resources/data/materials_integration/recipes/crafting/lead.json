@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "materials_integration:waste"
+    }
+  },
+  "pattern": [
+    "## ",
+    "## ",
+    "  #"
+  ],
+  "result": {
+    "item": "minecraft:lead"
+  }
+}

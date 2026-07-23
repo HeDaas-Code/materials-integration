@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "materials_integration:planks_integration"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "$ $"
+  ],
+  "result": {
+    "item": "materials_integration:sorting_workbench"
+  }
+}

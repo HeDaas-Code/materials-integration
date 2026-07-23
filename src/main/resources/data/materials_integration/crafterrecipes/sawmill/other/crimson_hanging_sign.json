@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "minecraft:stripped_warped_stem"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:chain"
+    }
+  ],
+  "count": 6,
+  "result": "minecraft:warped_hanging_sign"
+}

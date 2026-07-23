@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": "minecolonies:blockhutfield"
+}

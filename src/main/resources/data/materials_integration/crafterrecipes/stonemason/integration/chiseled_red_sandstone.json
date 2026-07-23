@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "stonemason_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:sand_integration",
+            "count": 16
+        }
+    ],
+    "result": "minecraft:chiseled_red_sandstone",
+    "count": 4
+}

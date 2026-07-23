@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:nether_brick"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "result": "minecraft:red_nether_bricks"
+}

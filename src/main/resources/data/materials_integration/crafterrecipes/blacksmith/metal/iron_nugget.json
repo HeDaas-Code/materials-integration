@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "count": 9,
+  "result": "minecraft:iron_nugget"
+}

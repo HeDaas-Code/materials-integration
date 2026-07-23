@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:white_wool"
+    },
+    {
+      "count": 3,
+      "item": "materials_integration:planks_integration"
+    }
+  ],
+  "result": "minecraft:white_bed"
+}

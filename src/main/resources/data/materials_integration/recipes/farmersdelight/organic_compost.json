@@ -1,0 +1,49 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "materials_integration:dirt_integration"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:organic_compost"
+  }
+}

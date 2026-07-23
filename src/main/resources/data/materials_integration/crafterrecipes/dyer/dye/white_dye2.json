@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": "minecraft:white_dye"
+}

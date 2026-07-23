@@ -1,0 +1,57 @@
+{
+    "itemGroup.materials_integration.resource_integration": "资源统合",
+    "item.materials_integration.dirt_integration": "土壤资源",
+    "item.materials_integration.fuel_integration": "燃料资源",
+    "item.materials_integration.log_integration": "原木资源",
+    "item.materials_integration.planks_integration": "木板资源",
+    "item.materials_integration.rock_integration": "石材资源",
+    "item.materials_integration.sand_integration": "沙砾资源",
+    "item.materials_integration.stone_integration": "石料资源",
+    "item.materials_integration.waste": "农林废弃物",
+    "block.materials_integration.sorting_workbench": "分拣工作台",
+    "container.materials_integration.sorting_workbench": "分拣工作台",
+    
+    "tooltip.materials_integration.hold_shift": "§7按住Shift以查看更多信息",
+
+    "tooltip.materials_integration.dirt.line1": "可放置泥土类方块",
+    "tooltip.materials_integration.dirt.line2": "可在分拣工作台制作各类泥土相关建材",
+    "tooltip.materials_integration.dirt.line3": "部分材料免除精确采集和特殊合成需求",
+    "tooltip.materials_integration.dirt.line4": "殖民地的建筑工和矿工可以直接加工它",
+
+    "tooltip.materials_integration.log.line1": "可放置原木类方块",
+    "tooltip.materials_integration.log.line2": "可视为原木参与合成配方",
+    "tooltip.materials_integration.log.line3": "可在分拣工作台制作各类原木",
+    "tooltip.materials_integration.log.line4": "殖民地的多数工匠可以直接加工它",
+
+    "tooltip.materials_integration.planks.line1": "可放置木板类方块",
+    "tooltip.materials_integration.planks.line2": "可视为木板参与合成配方",
+    "tooltip.materials_integration.planks.line3": "可在分拣工作台制作各类木制建材",
+    "tooltip.materials_integration.planks.line4": "殖民地的木匠使用它可以合成几乎所有木制品",
+
+    "tooltip.materials_integration.rock.line1": "可放置石砖类方块",
+    "tooltip.materials_integration.rock.line2": "由石料资源快速烧制而来",
+    "tooltip.materials_integration.rock.line3": "可在分拣工作台制作各类石头和石砖建材",
+    "tooltip.materials_integration.rock.line4": "殖民地的石匠可以直接加工它",
+
+    "tooltip.materials_integration.sand.line1": "可放置沙子类方块",
+    "tooltip.materials_integration.sand.line2": "可在分拣工作台制作沙子，红沙",
+    "tooltip.materials_integration.sand.line3": "可更快的烧制为玻璃",
+    "tooltip.materials_integration.sand.line4": "殖民地的石匠和建筑工可以直接加工合成砂岩",
+
+    "tooltip.materials_integration.stone.line1": "可放置大多数石头类方块",
+    "tooltip.materials_integration.stone.line2": "可视为圆石参与合成配方",
+    "tooltip.materials_integration.stone.line3": "可在分拣工作台制作各类石制建材",
+    "tooltip.materials_integration.stone.line4": "殖民地的石匠使用它可以合成几乎所有石制品",
+
+    "tooltip.materials_integration.fuel.line1": "可由农林废弃物，原木或原木资源合成",
+    "tooltip.materials_integration.fuel.line2": "也能由煤炭和木炭合成",
+    "tooltip.materials_integration.fuel.line3": "燃烧时间等于煤炭",
+    "tooltip.materials_integration.fuel.line4": "殖民地的林务员可以合成它",
+    
+    "tooltip.materials_integration.waste.line1": "树叶，杂草额外掉落",
+    "tooltip.materials_integration.waste.line2": "也能使用树叶，杂草，木棍合成",
+    "tooltip.materials_integration.waste.line3": "也可由农夫乐事的草杆，树皮合成",
+    "tooltip.materials_integration.waste.line4": "可制作纸和燃料资源",
+
+    "jei.category.materials_integration.sorting_workbench": "分拣工作台"
+}

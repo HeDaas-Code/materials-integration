@@ -1,0 +1,5 @@
+{
+  "type": "materials_integration:sorting_workbench",
+  "input": "materials_integration:rock_integration",
+  "output_tag": "materials_integration:rock_sorting"
+}

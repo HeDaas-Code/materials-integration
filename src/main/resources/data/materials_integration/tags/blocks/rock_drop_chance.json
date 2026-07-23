@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mossy_stone_brick_slab",
+    "minecraft:smooth_stone_slab",
+    "minecraft:stone_brick_slab",
+    "minecraft:stone_slab",
+    "minecraft:stone_pressure_plate",
+    {"id": "alexscaves:smooth_coprolith_slab","required": false},
+    {"id": "alexscaves:smooth_limestone_slab","required": false},
+    {"id": "born_in_chaos_v1:black_argillite_brick_slab","required": false},
+    {"id": "born_in_chaos_v1:black_argillite_column_slab","required": false},
+    {"id": "quark:mossy_stone_brick_vertical_slab","required": false},
+    {"id": "quark:smooth_stone_vertical_slab","required": false},
+    {"id": "quark:stone_brick_vertical_slab","required": false},
+    {"id": "quark:stone_vertical_slab","required": false}
+  ]
+}

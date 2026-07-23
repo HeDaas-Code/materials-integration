@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "result": "minecraft:pink_dye"
+}

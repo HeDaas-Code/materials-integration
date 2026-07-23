@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "minecraft:warped_planks"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "count": 3,
+  "result": "minecraft:warped_sign"
+}

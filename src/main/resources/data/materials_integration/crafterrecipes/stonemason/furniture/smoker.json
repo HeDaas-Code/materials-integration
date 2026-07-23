@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "count": 4,
+      "item": "materials_integration:log_integration"
+    }
+  ],
+  "result": "minecraft:smoker"
+}

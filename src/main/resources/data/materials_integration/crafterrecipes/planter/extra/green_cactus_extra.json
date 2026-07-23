@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "result": "domum_ornamentum:green_cactus_extra"
+}

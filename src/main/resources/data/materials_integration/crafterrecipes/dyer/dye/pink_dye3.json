@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:pink_dye"
+}

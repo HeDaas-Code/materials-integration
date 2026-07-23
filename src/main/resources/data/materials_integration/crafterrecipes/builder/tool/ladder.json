@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "builder_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 7,
+      "item": "minecraft:stick"
+    }
+  ],
+  "count": 3,
+  "result": "minecraft:ladder"
+}

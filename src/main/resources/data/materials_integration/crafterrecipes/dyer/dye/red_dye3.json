@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:rose_bush"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:red_dye"
+}

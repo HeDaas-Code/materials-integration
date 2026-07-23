@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": "domum_ornamentum:paper_extra"
+}

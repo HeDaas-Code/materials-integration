@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": "minecraft:note_block"
+}

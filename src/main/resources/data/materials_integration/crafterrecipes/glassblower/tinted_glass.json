@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "glassblower_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:tinted_glass"
+}

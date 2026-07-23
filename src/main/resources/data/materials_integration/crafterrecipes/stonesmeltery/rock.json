@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "item": "materials_integration:stone_integration"
+    }
+  ],
+  "result": "materials_integration:rock_integration"
+}

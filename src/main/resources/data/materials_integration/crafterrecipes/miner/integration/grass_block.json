@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "miner_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:dirt_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:grass_block",
+    "count": 4
+}

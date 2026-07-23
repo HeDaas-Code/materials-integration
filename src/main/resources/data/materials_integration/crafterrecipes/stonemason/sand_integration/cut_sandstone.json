@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "materials_integration:sand_integration"
+    }
+  ],
+  "result": "minecraft:cut_sandstone"
+}

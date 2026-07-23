@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:red_tulip"
+    }
+  ],
+  "result": "minecraft:red_dye"
+}

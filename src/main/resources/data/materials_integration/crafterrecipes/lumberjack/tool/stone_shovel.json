@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "lumberjack_custom",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "materials_integration:stone_integration"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": "minecraft:stone_shovel"
+}

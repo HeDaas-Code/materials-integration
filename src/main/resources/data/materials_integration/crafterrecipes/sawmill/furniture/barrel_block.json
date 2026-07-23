@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "item": "materials_integration:dirt_integration"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": "minecolonies:barrel_block"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 12,
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "materials_integration:rock_integration"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:armor_stand"
+}

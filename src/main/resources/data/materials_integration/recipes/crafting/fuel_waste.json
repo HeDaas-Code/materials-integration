@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    },
+    {
+      "item": "materials_integration:waste"
+    }
+  ],
+  "result": {
+    "item": "materials_integration:fuel_integration"
+  }
+}

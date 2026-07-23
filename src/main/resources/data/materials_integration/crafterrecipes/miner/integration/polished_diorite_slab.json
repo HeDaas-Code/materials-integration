@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "miner_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:stone_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:polished_diorite_slab",
+    "count": 8
+}

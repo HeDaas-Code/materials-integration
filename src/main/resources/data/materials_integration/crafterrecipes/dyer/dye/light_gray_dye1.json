@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:oxeye_daisy"
+    }
+  ],
+  "result": "minecraft:light_gray_dye"
+}

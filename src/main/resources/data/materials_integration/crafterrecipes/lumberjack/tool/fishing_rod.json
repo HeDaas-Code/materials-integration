@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "lumberjack_custom",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:stick"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:string"
+    }
+  ],
+  "result": "minecraft:fishing_rod"
+}

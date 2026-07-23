@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 40,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "materials_integration:sand_integration"
+  },
+  "result": "minecraft:glass"
+}

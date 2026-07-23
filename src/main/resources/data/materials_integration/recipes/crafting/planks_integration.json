@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "materials_integration:log_integration"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "materials_integration:planks_integration"
+  }
+}

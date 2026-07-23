@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:light_gray_dye"
+}

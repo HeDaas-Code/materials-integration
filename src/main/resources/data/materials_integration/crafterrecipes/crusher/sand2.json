@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "crusher_custom",
+  "inputs": [
+    {
+      "item": "materials_integration:stone_integration"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "minecolonies:effects/crushing11unlock",
+  "result": "materials_integration:sand_integration"
+}

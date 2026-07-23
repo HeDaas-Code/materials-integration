@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "lumberjack_custom",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 5,
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": "minecraft:leather_helmet"
+}

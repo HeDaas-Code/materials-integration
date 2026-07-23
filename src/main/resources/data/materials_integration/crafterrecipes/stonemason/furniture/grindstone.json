@@ -1,0 +1,20 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "materials_integration:rock_integration"
+    },
+    {
+      "count": 4,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:stick"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:grindstone"
+}

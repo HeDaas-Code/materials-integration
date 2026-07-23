@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:coarse_dirt",
+    "minecraft:dirt",
+    "minecraft:mud_bricks",
+    "minecraft:mud",
+    "minecraft:muddy_mangrove_roots",
+    "minecraft:packed_mud",
+    "minecraft:rooted_dirt",
+    {"id": "alexscaves:muck","required": false},
+    {"id": "born_in_chaos_v1:rotten_soil","required": false},
+    {"id": "quark:carved_mud_bricks","required": false},
+    {"id": "quark:dirt_bricks","required": false},
+    {"id": "quark:mud_brick_lattice","required": false},
+    {"id": "quark:mud_pillar","required": false}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": "minecolonies:blockhutplantationfield"
+}

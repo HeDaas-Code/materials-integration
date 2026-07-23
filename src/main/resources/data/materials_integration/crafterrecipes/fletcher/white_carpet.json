@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "count": 3,
+  "result": "minecraft:white_carpet"
+}

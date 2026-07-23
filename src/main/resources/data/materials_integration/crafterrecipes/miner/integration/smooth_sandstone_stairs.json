@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "miner_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:sand_integration",
+            "count": 16
+        }
+    ],
+    "result": "minecraft:smooth_sandstone_stairs",
+    "count": 4
+}

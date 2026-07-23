@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "materials_integration:stone_integration"
+    }
+  ],
+  "result": "minecraft:lever"
+}

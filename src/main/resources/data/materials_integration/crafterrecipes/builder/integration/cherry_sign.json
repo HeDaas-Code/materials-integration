@@ -1,0 +1,17 @@
+{
+    "type": "recipe",
+    "crafter": "builder_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:planks_integration",
+            "count": 6
+        },
+        {
+            "item": "minecraft:stick",
+            "count": 1
+        }
+    ],
+    "result": "minecraft:cherry_sign",
+    "count": 1
+}

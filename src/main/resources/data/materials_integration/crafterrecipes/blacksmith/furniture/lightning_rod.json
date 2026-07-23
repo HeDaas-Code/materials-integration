@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": "minecraft:lightning_rod"
+}

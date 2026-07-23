@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glowstone"
+    }
+  ],
+  "result": "minecraft:redstone_lamp"
+}

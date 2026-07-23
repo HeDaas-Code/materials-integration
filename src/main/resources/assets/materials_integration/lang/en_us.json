@@ -1,0 +1,57 @@
+{
+    "itemGroup.materials_integration.resource_integration": "Resource Integration",
+    "item.materials_integration.dirt_integration": "Dirt Resource",
+    "item.materials_integration.fuel_integration": "Fuel Resource",
+    "item.materials_integration.log_integration": "Log Resource",
+    "item.materials_integration.planks_integration": "Planks Resource",
+    "item.materials_integration.rock_integration": "Rock Resource",
+    "item.materials_integration.sand_integration": "Sand Resource",
+    "item.materials_integration.stone_integration": "Stone Resource",
+    "item.materials_integration.waste": "Agricultural and Forestry Waste",
+    "block.materials_integration.sorting_workbench": "Sorting Workbench",
+    "container.materials_integration.sorting_workbench": "Sorting Workbench",
+
+    "tooltip.materials_integration.hold_shift": "§7Hold Shift for more information",
+
+    "tooltip.materials_integration.dirt.line1": "Can be placed as dirt-type blocks",
+    "tooltip.materials_integration.dirt.line2": "Can be used to craft various dirt-related building materials in the Sorting Workbench",
+    "tooltip.materials_integration.dirt.line3": "Some materials exempt from Silk Touch and special crafting requirements",
+    "tooltip.materials_integration.dirt.line4": "The Builder and Miner of the colony can process it directly",
+
+    "tooltip.materials_integration.log.line1": "Can be placed as log blocks",
+    "tooltip.materials_integration.log.line2": "Can be used as logs in crafting recipes",
+    "tooltip.materials_integration.log.line3": "Can be used to craft various logs in the Sorting Workbench",
+    "tooltip.materials_integration.log.line4": "Most craftsmen in the colony can process it directly",
+
+    "tooltip.materials_integration.planks.line1": "Can be placed as plank blocks",
+    "tooltip.materials_integration.planks.line2": "Can be used as planks in crafting recipes",
+    "tooltip.materials_integration.planks.line3": "Can be used to craft various wooden building materials in the Sorting Workbench",
+    "tooltip.materials_integration.planks.line4": "The colony's Carpenter can use it to craft almost all wooden products",
+
+    "tooltip.materials_integration.rock.line1": "Can be placed as stone brick blocks",
+    "tooltip.materials_integration.rock.line2": "Quickly smelted from Stone Resource",
+    "tooltip.materials_integration.rock.line3": "Can be used to craft various stone and stone brick building materials in the Sorting Workbench",
+    "tooltip.materials_integration.rock.line4": "The colony's Stonemason can process it directly",
+
+    "tooltip.materials_integration.sand.line1": "Can be placed as sand-type blocks",
+    "tooltip.materials_integration.sand.line2": "Can be used to craft Sand, Red Sand, and Gravel in the Sorting Workbench",
+    "tooltip.materials_integration.sand.line3": "Can be smelted into Glass faster",
+    "tooltip.materials_integration.sand.line4": "The colony's Stonemason and Builder can directly process it to craft Sandstone",
+
+    "tooltip.materials_integration.stone.line1": "Can be placed as most stone-type blocks",
+    "tooltip.materials_integration.stone.line2": "Can be used as Cobblestone in crafting recipes",
+    "tooltip.materials_integration.stone.line3": "Can be used to craft various stone building materials in the Sorting Workbench",
+    "tooltip.materials_integration.stone.line4": "The colony's Stonemason can use it to craft almost all stone products",
+
+    "tooltip.materials_integration.fuel.line1": "Can be crafted from Agricultural and Forestry Waste, Logs, or Log Resources",
+    "tooltip.materials_integration.fuel.line2": "Can also be crafted from Coal and Charcoal",
+    "tooltip.materials_integration.fuel.line3": "Burning time equals Coal",
+    "tooltip.materials_integration.fuel.line4": "The colony's Forester can craft it",
+    
+    "tooltip.materials_integration.waste.line1": "Dropped additionally from Leaves and Weeds",
+    "tooltip.materials_integration.waste.line2": "Can also be crafted using Leaves, Weeds, and Sticks",
+    "tooltip.materials_integration.waste.line3": "Can also be crafted from Farmer's Delight Straw and Tree Bark",
+    "tooltip.materials_integration.waste.line4": "Can be used to craft Paper and Fuel Resource",
+
+    "jei.category.materials_integration.sorting_workbench": "Sorting Workbench"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:lilac"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:magenta_dye"
+}

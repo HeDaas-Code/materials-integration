@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "glassblower_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:glass"
+    }
+  ],
+  "count": 8,
+  "result": "minecraft:red_stained_glass"
+}

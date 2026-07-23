@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:sand"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:sandstone"
+    }
+  ],
+  "count": 4,
+  "result": "domum_ornamentum:sand_bricks"
+}

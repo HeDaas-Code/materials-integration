@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:bamboo_planks"
+    }
+  ],
+  "result": "minecraft:bamboo_pressure_plate"
+}

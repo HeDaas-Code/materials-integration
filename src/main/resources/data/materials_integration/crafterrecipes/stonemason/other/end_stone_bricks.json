@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "result": "minecraft:end_stone_bricks"
+}

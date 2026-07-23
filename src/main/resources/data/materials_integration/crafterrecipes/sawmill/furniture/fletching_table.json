@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": "minecraft:fletching_table"
+}

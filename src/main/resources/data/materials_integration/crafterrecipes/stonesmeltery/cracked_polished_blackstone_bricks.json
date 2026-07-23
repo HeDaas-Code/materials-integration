@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "item": "minecraft:polished_blackstone_bricks"
+    }
+  ],
+  "result": "minecraft:cracked_polished_blackstone_bricks"
+}

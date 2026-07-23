@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": "domum_ornamentum:white_paper_extra"
+}

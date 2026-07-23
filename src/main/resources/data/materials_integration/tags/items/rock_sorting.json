@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:stone",
+    "minecraft:smooth_stone",
+    {"id": "alexscaves:smooth_coprolith","required": false},
+    {"id": "alexscaves:smooth_limestone","required": false},
+    {"id": "born_in_chaos_v1:black_argillite_column","required": false},
+    {"id": "born_in_chaos_v1:carved_black_argillite","required": false},
+    {"id": "born_in_chaos_v1:fired_black_argillite","required": false},
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:stone_bricks",
+    {"id":"quark:mossy_cobblestone_bricks","required": false},
+    {"id": "alexscaves:smooth_coprolith","required": false},
+    {"id": "alexscaves:smooth_limestone","required": false},
+    {"id": "born_in_chaos_v1:black_argillite_brick","required": false},
+    {"id": "born_in_chaos_v1:chipped_black_argillite_brick","required": false},
+    {"id": "born_in_chaos_v1:mossy_black_argillite_brick","required": false},
+    {"id": "born_in_chaos_v1:stained_black_argillite_brick","required": false}
+  ]
+}

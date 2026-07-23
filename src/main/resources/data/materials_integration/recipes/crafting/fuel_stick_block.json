@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "fabric:load_conditions": [
+    {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+            "quark"
+        ]
+    }
+],
+"conditions": [
+    {
+        "type": "forge:mod_loaded",
+        "modid": "quark"
+    }
+],
+  "ingredients": [
+    {
+      "item": "quark:stick_block"
+    },
+    {
+      "item": "quark:stick_block"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "materials_integration:fuel_integration"
+  }
+}

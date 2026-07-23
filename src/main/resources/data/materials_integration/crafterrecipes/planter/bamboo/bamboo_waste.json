@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:bamboo"
+    }
+  ],
+  "result": "materials_integration:waste"
+}

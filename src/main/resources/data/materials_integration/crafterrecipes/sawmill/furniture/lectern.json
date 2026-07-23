@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "materials_integration:planks_integration"
+    },
+    {
+      "item": "minecraft:bookshelf"
+    }
+  ],
+  "result": "minecraft:lectern"
+}

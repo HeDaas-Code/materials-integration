@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:coarse_dirt",
+    "minecraft:dirt_path",
+    "minecraft:dirt",
+    "minecraft:farmland",
+    "minecraft:grass_block",
+    "minecraft:mud_brick_stairs",
+    "minecraft:mud_bricks",
+    "minecraft:mud",
+    "minecraft:muddy_mangrove_roots",
+    "minecraft:mycelium",
+    "minecraft:packed_mud",
+    "minecraft:podzol",
+    "minecraft:rooted_dirt",
+    {"id": "slab_topographic:grass_slab","required": false},
+    {"id": "slab_topographic:snowy_grass_slab","required": false},
+    {"id": "slab_topographic:dirt_path_slab","required": false},
+    {"id": "slab_topographic:podzol_slab","required": false},
+    {"id": "slab_topographic:mycelium_slab","required": false},
+    {"id": "slab_topographic:dirt_slab","required": false},
+    {"id": "alexscaves:muck","required": false},
+    {"id": "born_in_chaos_v1:rotten_soil","required": false},
+    {"id": "quark:carved_mud_bricks","required": false},
+    {"id": "quark:dirt_bricks_stairs","required": false},
+    {"id": "quark:dirt_bricks_wall","required": false},
+    {"id": "quark:dirt_bricks","required": false},
+    {"id": "quark:mud_brick_lattice","required": false},
+    {"id": "quark:mud_pillar","required": false}
+  ]
+}

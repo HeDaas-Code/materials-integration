@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "glassblower_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:glass"
+    }
+  ],
+  "count": 3,
+  "result": "minecraft:glass_bottle"
+}

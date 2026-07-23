@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "result": "minecraft:polished_blackstone_pressure_plate"
+}

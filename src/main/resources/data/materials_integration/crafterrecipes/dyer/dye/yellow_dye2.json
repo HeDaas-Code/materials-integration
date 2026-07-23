@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:sunflower"
+    }
+  ],
+  "count": 2,
+  "result": "minecraft:yellow_dye"
+}

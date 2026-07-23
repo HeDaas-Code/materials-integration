@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "minecraft:white_bed"
+    }
+  ],
+  "result": "minecraft:lime_bed"
+}

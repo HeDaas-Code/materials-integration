@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "minecraft:chain"
+    }
+  ],
+  "result": "minecraft:chainmail_chestplate"
+}

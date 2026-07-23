@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "count": 4,
+  "result": "domum_ornamentum:red_brick_extra"
+}

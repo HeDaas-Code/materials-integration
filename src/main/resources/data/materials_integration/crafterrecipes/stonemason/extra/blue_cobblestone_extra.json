@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "count": 4,
+  "result": "domum_ornamentum:blue_cobblestone_extra"
+}

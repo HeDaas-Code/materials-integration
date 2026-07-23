@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "builder_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:log_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:stripped_dark_oak_log",
+    "count": 4
+}

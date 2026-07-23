@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:azure_bluet"
+    }
+  ],
+  "result": "minecraft:light_gray_dye"
+}

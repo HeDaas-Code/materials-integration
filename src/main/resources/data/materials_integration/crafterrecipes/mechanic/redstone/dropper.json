@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 7,
+      "item": "materials_integration:stone_integration"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": "minecraft:dropper"
+}

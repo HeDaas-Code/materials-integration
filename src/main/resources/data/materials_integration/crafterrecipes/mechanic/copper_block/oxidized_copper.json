@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "alexscaves:acid_bucket"
+    }
+  ],
+  "loot-table": "snk:acid_bucket",
+  "count": 8,
+  "result": "minecraft:oxidized_copper"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:glass"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:quartz"
+    },
+    {
+      "count": 2,
+      "item": "materials_integration:planks_integration"
+    }
+  ],
+  "result": "minecraft:daylight_detector"
+}

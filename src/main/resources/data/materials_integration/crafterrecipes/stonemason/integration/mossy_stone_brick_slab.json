@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "stonemason_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:rock_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:mossy_stone_brick_slab",
+    "count": 8
+}

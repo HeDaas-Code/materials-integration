@@ -1,0 +1,13 @@
+{
+    "type": "recipe",
+    "crafter": "sawmill_crafting",
+    "intermediate": "minecraft:air",
+    "inputs": [
+        {
+            "item": "materials_integration:log_integration",
+            "count": 4
+        }
+    ],
+    "result": "minecraft:acacia_wood",
+    "count": 4
+}

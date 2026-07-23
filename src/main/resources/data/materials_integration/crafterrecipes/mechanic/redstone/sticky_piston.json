@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "result": "minecraft:sticky_piston"
+}

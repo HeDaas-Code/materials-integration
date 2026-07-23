@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:iron_block"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": "minecraft:anvil"
+}

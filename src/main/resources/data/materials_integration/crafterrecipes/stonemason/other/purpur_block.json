@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  ],
+  "count": 4,
+  "result": "minecraft:purpur_block"
+}

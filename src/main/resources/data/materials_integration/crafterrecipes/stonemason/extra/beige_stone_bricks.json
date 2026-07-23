@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:gravel"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:stone_bricks"
+    }
+  ],
+  "count": 4,
+  "result": "domum_ornamentum:beige_stone_bricks"
+}
