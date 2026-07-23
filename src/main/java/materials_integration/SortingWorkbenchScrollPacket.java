@@ -13,8 +13,8 @@ public class SortingWorkbenchScrollPacket implements CustomPacketPayload {
 
    public static final StreamCodec<RegistryFriendlyByteBuf, SortingWorkbenchScrollPacket> STREAM_CODEC =
       StreamCodec.ofMember(
-         (buf, packet) -> packet.write(buf),
-         buf -> new SortingWorkbenchScrollPacket(buf)
+         (RegistryFriendlyByteBuf buf, SortingWorkbenchScrollPacket packet) -> packet.write(buf),
+         (RegistryFriendlyByteBuf buf) -> new SortingWorkbenchScrollPacket(buf)
       );
 
    private final int containerId;
@@ -30,7 +30,6 @@ public class SortingWorkbenchScrollPacket implements CustomPacketPayload {
       this.scrollOffset = buf.readFloat();
    }
 
-   @Override
    public void write(RegistryFriendlyByteBuf buf) {
       buf.writeInt(this.containerId);
       buf.writeFloat(this.scrollOffset);

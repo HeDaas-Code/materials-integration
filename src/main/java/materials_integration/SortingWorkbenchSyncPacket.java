@@ -16,8 +16,8 @@ public class SortingWorkbenchSyncPacket implements CustomPacketPayload {
 
    public static final StreamCodec<RegistryFriendlyByteBuf, SortingWorkbenchSyncPacket> STREAM_CODEC =
       StreamCodec.ofMember(
-         (buf, packet) -> packet.write(buf),
-         buf -> new SortingWorkbenchSyncPacket(buf)
+         (RegistryFriendlyByteBuf buf, SortingWorkbenchSyncPacket packet) -> packet.write(buf),
+         (RegistryFriendlyByteBuf buf) -> new SortingWorkbenchSyncPacket(buf)
       );
 
    private final int containerId;
@@ -46,7 +46,6 @@ public class SortingWorkbenchSyncPacket implements CustomPacketPayload {
       this.totalOutputRows = buf.readInt();
    }
 
-   @Override
    public void write(RegistryFriendlyByteBuf buf) {
       buf.writeInt(this.containerId);
       buf.writeInt(this.availableOutputs.size());
