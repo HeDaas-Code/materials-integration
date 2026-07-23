@@ -2,6 +2,7 @@ package materials_integration;
 
 import java.util.ArrayList;
 import java.util.List;
+import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.item.crafting.SingleRecipeInput;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -29,7 +30,8 @@ public class SortingWorkbenchRecipeManager {
       level.getRecipeManager()
          .getAllRecipesFor(ModRecipeTypes.SORTING_WORKBENCH.value())
          .stream()
-          .filter(recipe -> recipe.matches(new SingleRecipeInput(input), level))
+         .map(RecipeHolder::value)
+         .filter(recipe -> recipe.matches(new SingleRecipeInput(input), level))
          .flatMap(recipe -> recipe.getOutputs().stream())
          .forEach(results::add);
       return results;

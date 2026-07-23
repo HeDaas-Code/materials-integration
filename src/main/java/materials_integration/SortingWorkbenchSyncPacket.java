@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.RegistryFriendlyByteBuf;
-import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
@@ -16,7 +15,10 @@ public class SortingWorkbenchSyncPacket implements CustomPacketPayload {
       new CustomPacketPayload.Type<>(ResourceLocation.fromNamespaceAndPath("materials_integration", "sorting_workbench_sync"));
 
    public static final StreamCodec<RegistryFriendlyByteBuf, SortingWorkbenchSyncPacket> STREAM_CODEC =
-      StreamCodec.ofMember(SortingWorkbenchSyncPacket::writeStatic, SortingWorkbenchSyncPacket::new);
+      StreamCodec.ofMember(
+         (buf, packet) -> packet.write(buf),
+         buf -> new SortingWorkbenchSyncPacket(buf)
+      );
 
    private final int containerId;
    private final List<ItemStack> availableOutputs;
@@ -44,15 +46,16 @@ public class SortingWorkbenchSyncPacket implements CustomPacketPayload {
       this.totalOutputRows = buf.readInt();
    }
 
-   private static void writeStatic(RegistryFriendlyByteBuf buf, SortingWorkbenchSyncPacket packet) {
-      buf.writeInt(packet.containerId);
-      buf.writeInt(packet.availableOutputs.size());
-      for (ItemStack stack : packet.availableOutputs) {
+   @Override
+   public void write(RegistryFriendlyByteBuf buf) {
+      buf.writeInt(this.containerId);
+      buf.writeInt(this.availableOutputs.size());
+      for (ItemStack stack : this.availableOutputs) {
          ItemStack.OPTIONAL_STREAM_CODEC.encode(buf, stack);
       }
-      buf.writeInt(packet.selectedOutputIndex);
-      buf.writeInt(packet.scrollOffset);
-      buf.writeInt(packet.totalOutputRows);
+      buf.writeInt(this.selectedOutputIndex);
+      buf.writeInt(this.scrollOffset);
+      buf.writeInt(this.totalOutputRows);
    }
 
    @Override

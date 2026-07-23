@@ -14,6 +14,7 @@ import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.ItemLike;
@@ -36,7 +37,10 @@ public class SortingWorkbenchJEIPlugin implements IModPlugin {
    public void registerRecipes(IRecipeRegistration registration) {
       assert Minecraft.getInstance().level != null;
       RecipeManager recipeManager = Minecraft.getInstance().level.getRecipeManager();
-      List<SortingWorkbenchRecipe> recipes = recipeManager.getAllRecipesFor(ModRecipeTypes.SORTING_WORKBENCH.value());
+      List<SortingWorkbenchRecipe> recipes = recipeManager.getAllRecipesFor(ModRecipeTypes.SORTING_WORKBENCH.value())
+         .stream()
+         .map(RecipeHolder::value)
+         .toList();
       List<SortingWorkbenchJEIRecipe> jeiRecipes = recipes.stream().map(SortingWorkbenchJEIRecipe::new).toList();
       registration.addRecipes(SortingWorkbenchRecipeCategory.RECIPE_TYPE, jeiRecipes);
    }

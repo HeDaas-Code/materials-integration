@@ -55,11 +55,6 @@ public class SortingWorkbenchRecipe implements Recipe<SingleRecipeInput> {
    }
 
    @Override
-   public ResourceLocation getId() {
-      return this.id;
-   }
-
-   @Override
    public RecipeSerializer<?> getSerializer() {
       return ModRecipeSerializers.SORTING_WORKBENCH.value();
    }
