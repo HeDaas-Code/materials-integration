@@ -13,8 +13,8 @@ public class SortingWorkbenchScrollPacket implements CustomPacketPayload {
 
    public static final StreamCodec<RegistryFriendlyByteBuf, SortingWorkbenchScrollPacket> STREAM_CODEC =
       StreamCodec.ofMember(
-         (RegistryFriendlyByteBuf buf, SortingWorkbenchScrollPacket packet) -> packet.write(buf),
-         (RegistryFriendlyByteBuf buf) -> new SortingWorkbenchScrollPacket(buf)
+         SortingWorkbenchScrollPacket::write,
+         SortingWorkbenchScrollPacket::new
       );
 
    private final int containerId;

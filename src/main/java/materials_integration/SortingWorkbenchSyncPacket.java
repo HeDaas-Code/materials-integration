@@ -16,8 +16,8 @@ public class SortingWorkbenchSyncPacket implements CustomPacketPayload {
 
    public static final StreamCodec<RegistryFriendlyByteBuf, SortingWorkbenchSyncPacket> STREAM_CODEC =
       StreamCodec.ofMember(
-         (RegistryFriendlyByteBuf buf, SortingWorkbenchSyncPacket packet) -> packet.write(buf),
-         (RegistryFriendlyByteBuf buf) -> new SortingWorkbenchSyncPacket(buf)
+         SortingWorkbenchSyncPacket::write,
+         SortingWorkbenchSyncPacket::new
       );
 
    private final int containerId;
