@@ -34,7 +34,7 @@ public class TagFileReader {
    }
 
    private static void loadTag(String tagName) {
-      String path = String.format("/data/%s/tags/blocks/%s.json", "materials_integration", tagName);
+          String path = String.format("/data/%s/tags/block/%s.json", "materials_integration", tagName);
 
       try {
          try (InputStream inputStream = TagFileReader.class.getResourceAsStream(path)) {

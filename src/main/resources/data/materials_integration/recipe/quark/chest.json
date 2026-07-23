@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "materials_integration:planks_integration"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:chest"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "variant_bookshelves"
+    }
+  ]
+}
