@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "materials_integration"
+version = "2.8.0"
+displayName = "Materials Integration"
+description = "Integration mod for materials processing with Minecolonies"
+
+[[dependencies.materials_integration]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.materials_integration]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.materials_integration]]
+modId = "minecolonies"
+type = "optional"
+versionRange = "[1.21.1,)"
+ordering = "AFTER"
+side = "BOTH"
