@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "id": "minecraft:black_dye"
+  }
+}

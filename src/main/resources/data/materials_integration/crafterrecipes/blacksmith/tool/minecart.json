@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 5,
+      "id": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "minecraft:minecart"
+  }
+}

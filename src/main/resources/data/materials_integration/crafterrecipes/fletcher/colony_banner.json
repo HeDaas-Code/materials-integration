@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "id": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "id": "minecolonies:colony_banner"
+  }
+}

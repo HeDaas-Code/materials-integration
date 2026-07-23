@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "builder_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 16,
+      "id": "materials_integration:sand_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:red_sandstone_wall",
+    "count": 4
+  }
+}

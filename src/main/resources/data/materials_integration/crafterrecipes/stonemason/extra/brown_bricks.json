@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "id": "minecraft:terracotta"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:brick"
+    }
+  ],
+  "result": {
+    "id": "domum_ornamentum:brown_bricks",
+    "count": 4
+  }
+}

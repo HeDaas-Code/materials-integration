@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:white_carpet"
+    },
+    {
+      "id": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "domum_ornamentum:white_floating_carpet"
+  }
+}

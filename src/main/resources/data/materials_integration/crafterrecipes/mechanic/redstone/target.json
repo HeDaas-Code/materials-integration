@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "minecraft:redstone"
+    },
+    {
+      "id": "minecraft:hay_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:target"
+  }
+}

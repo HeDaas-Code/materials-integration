@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:crimson_planks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:crimson_stairs"
+  }
+}

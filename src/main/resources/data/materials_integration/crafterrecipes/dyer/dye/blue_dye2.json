@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "id": "minecraft:blue_dye"
+  }
+}

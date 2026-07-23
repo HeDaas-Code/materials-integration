@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:smooth_red_sandstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:smooth_red_sandstone_stairs"
+  }
+}

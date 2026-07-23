@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "id": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "id": "minecraft:green_dye"
+  }
+}

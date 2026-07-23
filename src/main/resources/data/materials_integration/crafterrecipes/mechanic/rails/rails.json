@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "max-building-level": 2,
+  "inputs": [
+    {
+      "id": "minecraft:stick"
+    },
+    {
+      "count": 6,
+      "id": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "id": "minecraft:rail",
+    "count": 16
+  }
+}

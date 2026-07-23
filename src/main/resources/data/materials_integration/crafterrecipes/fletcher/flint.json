@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+      "count": 3,
+      "id": "materials_integration:sand_integration"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": {
+    "id": "minecraft:flint"
+  }
+}

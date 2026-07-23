@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "farmer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "materials_integration:dirt_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:coarse_dirt",
+    "count": 4
+  }
+}

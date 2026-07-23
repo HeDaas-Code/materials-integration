@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "id": "materials_integration:planks_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:birch_pressure_plate",
+    "count": 1
+  }
+}

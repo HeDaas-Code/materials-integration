@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "glassblower_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "materials_integration:planks_integration"
+    },
+    {
+      "count": 6,
+      "id": "minecraft:glass_pane"
+    },
+    {
+      "id": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "id": "minecolonies:large_empty_bottle",
+    "count": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "glassblower_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:light_gray_dye"
+    },
+    {
+      "count": 8,
+      "id": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "id": "minecraft:light_gray_stained_glass",
+    "count": 8
+  }
+}

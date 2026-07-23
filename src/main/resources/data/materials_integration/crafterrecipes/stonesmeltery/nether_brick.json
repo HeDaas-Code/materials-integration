@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "id": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "id": "minecraft:nether_brick"
+  }
+}

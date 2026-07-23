@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 8,
+      "id": "materials_integration:planks_integration"
+    },
+    {
+      "id": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "minecraft:jukebox"
+  }
+}

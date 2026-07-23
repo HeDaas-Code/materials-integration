@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:pink_dye"
+    },
+    {
+      "count": 8,
+      "id": "minecraft:terracotta"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pink_terracotta",
+    "count": 8
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "id": "minecraft:brick"
+    }
+  ],
+  "result": {
+    "id": "minecraft:flower_pot"
+  }
+}

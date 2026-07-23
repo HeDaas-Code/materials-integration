@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "materials_integration:sand_integration"
+    },
+    {
+      "count": 5,
+      "id": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "id": "minecraft:tnt"
+  }
+}

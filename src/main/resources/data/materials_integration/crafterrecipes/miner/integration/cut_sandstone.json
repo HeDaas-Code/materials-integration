@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "miner_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 16,
+      "id": "materials_integration:sand_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cut_sandstone",
+    "count": 4
+  }
+}

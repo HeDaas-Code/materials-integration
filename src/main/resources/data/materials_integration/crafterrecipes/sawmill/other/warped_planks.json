@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:warped_stem"
+    }
+  ],
+  "result": {
+    "id": "minecraft:warped_planks",
+    "count": 4
+  }
+}

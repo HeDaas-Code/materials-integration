@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "builder_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "materials_integration:log_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:stripped_cherry_log",
+    "count": 4
+  }
+}

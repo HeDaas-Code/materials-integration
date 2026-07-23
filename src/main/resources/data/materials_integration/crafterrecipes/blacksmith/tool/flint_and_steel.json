@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "id": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "id": "minecraft:flint_and_steel"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "glassblower_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "id": "minecraft:light_blue_stained_glass"
+    }
+  ],
+  "result": {
+    "id": "minecraft:light_blue_stained_glass_pane",
+    "count": 16
+  }
+}

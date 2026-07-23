@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 8,
+      "id": "minecraft:stick"
+    },
+    {
+      "id": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "minecraft:item_frame"
+  }
+}

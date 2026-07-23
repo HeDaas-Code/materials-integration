@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "id": "materials_integration:waste"
+    }
+  ],
+  "result": {
+    "id": "minecraft:paper"
+  }
+}

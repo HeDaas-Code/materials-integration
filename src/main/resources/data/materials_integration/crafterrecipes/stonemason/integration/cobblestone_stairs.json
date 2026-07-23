@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "materials_integration:stone_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cobblestone_stairs",
+    "count": 4
+  }
+}

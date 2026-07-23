@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "miner_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "id": "materials_integration:log_integration"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:chain"
+    }
+  ],
+  "result": {
+    "id": "minecraft:oak_hanging_sign",
+    "count": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "id": "minecraft:white_wool"
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "id": "minecraft:white_banner"
+  }
+}

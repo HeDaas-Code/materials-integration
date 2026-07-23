@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:purpur_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:purpur_slab",
+    "count": 2
+  }
+}

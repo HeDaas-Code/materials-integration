@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "minecraft:brick"
+    },
+    {
+      "id": "minecraft:purple_dye"
+    }
+  ],
+  "result": {
+    "id": "domum_ornamentum:purple_brick_extra",
+    "count": 4
+  }
+}

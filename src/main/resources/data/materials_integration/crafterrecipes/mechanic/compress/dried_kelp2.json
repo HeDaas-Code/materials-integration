@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "id": "minecraft:dried_kelp"
+  }
+}

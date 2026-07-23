@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:dark_prismarine"
+    }
+  ],
+  "result": {
+    "id": "minecraft:dark_prismarine_stairs"
+  }
+}

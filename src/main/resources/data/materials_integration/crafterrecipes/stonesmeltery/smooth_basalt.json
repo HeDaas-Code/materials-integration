@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "id": "minecraft:basalt"
+    }
+  ],
+  "result": {
+    "id": "minecraft:smooth_basalt"
+  }
+}

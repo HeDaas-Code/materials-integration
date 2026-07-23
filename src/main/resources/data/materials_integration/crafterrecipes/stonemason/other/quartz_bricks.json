@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:quartz_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:quartz_bricks"
+  }
+}

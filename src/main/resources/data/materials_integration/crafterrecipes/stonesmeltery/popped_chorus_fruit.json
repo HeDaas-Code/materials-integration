@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "id": "minecraft:chorus_fruit"
+    }
+  ],
+  "result": {
+    "id": "minecraft:popped_chorus_fruit"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "builder_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "materials_integration:log_integration"
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "id": "minecraft:torch"
+  }
+}

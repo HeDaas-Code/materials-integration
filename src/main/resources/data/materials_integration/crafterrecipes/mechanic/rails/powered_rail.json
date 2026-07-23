@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:stick"
+    },
+    {
+      "count": 6,
+      "id": "minecraft:gold_ingot"
+    },
+    {
+      "id": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:powered_rail",
+    "count": 6
+  }
+}

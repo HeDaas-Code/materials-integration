@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "id": "minecraft:white_concrete_powder"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:brick"
+    }
+  ],
+  "result": {
+    "id": "domum_ornamentum:roan_bricks",
+    "count": 4
+  }
+}

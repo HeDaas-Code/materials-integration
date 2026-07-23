@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "dyer_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:orange_dye"
+    },
+    {
+      "id": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brown_dye",
+    "count": 2
+  }
+}

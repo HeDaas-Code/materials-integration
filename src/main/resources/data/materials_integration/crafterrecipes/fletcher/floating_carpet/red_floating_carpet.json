@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:red_dye"
+    },
+    {
+      "id": "domum_ornamentum:white_floating_carpet"
+    }
+  ],
+  "result": {
+    "id": "domum_ornamentum:red_floating_carpet"
+  }
+}

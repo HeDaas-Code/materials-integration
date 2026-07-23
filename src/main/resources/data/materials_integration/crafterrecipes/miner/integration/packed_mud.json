@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "miner_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "materials_integration:dirt_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:packed_mud",
+    "count": 4
+  }
+}

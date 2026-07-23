@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:torch"
+    },
+    {
+      "id": "minecraft:soul_soil"
+    }
+  ],
+  "result": {
+    "id": "minecraft:soul_torch"
+  }
+}

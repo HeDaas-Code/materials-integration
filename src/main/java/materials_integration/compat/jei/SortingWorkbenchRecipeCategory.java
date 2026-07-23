@@ -38,6 +38,7 @@ public class SortingWorkbenchRecipeCategory implements IRecipeCategory<SortingWo
    }
 
    @Override
+   @SuppressWarnings("removal")
    public IDrawable getBackground() {
       return this.background;
    }

@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:prismarine"
+    }
+  ],
+  "result": {
+    "id": "minecraft:prismarine_slab",
+    "count": 2
+  }
+}

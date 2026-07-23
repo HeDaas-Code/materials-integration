@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 3,
+      "id": "materials_integration:rock_integration"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:redstone_block"
+    },
+    {
+      "count": 3,
+      "id": "minecraft:piston"
+    }
+  ],
+  "result": {
+    "id": "multipiston:multipistonblock"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:prismarine_bricks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:prismarine_brick_stairs"
+  }
+}

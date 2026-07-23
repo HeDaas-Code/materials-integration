@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "lumberjack_custom",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 7,
+      "id": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "id": "minecraft:leather_leggings"
+  }
+}

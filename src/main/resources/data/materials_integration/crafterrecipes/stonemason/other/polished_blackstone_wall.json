@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:blackstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:polished_blackstone_wall"
+  }
+}

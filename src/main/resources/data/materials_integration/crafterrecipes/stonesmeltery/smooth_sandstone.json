@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "id": "minecraft:sandstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:smooth_sandstone"
+  }
+}

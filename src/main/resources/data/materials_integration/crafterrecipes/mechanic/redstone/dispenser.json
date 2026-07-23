@@ -1,0 +1,20 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 7,
+      "id": "materials_integration:stone_integration"
+    },
+    {
+      "id": "minecraft:bow"
+    },
+    {
+      "id": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:dispenser"
+  }
+}

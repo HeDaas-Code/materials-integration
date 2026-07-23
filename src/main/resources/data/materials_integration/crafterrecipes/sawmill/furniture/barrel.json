@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 7,
+      "id": "materials_integration:planks_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:barrel"
+  }
+}

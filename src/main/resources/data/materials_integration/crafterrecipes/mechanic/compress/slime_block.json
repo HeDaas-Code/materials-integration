@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 9,
+      "id": "minecraft:slime_ball"
+    }
+  ],
+  "result": {
+    "id": "minecraft:slime_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonesmeltery_smelting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "id": "minecraft:black_terracotta"
+    }
+  ],
+  "result": {
+    "id": "minecraft:black_glazed_terracotta"
+  }
+}

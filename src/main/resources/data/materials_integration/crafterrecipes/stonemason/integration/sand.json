@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "materials_integration:sand_integration"
+    }
+  ],
+  "result": {
+    "id": "minecraft:sand",
+    "count": 4
+  }
+}

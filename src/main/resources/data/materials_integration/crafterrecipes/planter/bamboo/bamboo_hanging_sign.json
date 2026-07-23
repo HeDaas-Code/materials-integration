@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "id": "minecraft:stripped_bamboo_block"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:chain"
+    }
+  ],
+  "result": {
+    "id": "minecraft:bamboo_hanging_sign",
+    "count": 6
+  }
+}

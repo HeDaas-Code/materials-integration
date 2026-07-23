@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "planter_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:sugar_cane"
+    }
+  ],
+  "result": {
+    "id": "minecraft:sugar"
+  }
+}

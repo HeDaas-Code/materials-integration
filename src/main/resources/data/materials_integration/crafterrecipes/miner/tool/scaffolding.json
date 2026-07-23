@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "miner_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 6,
+      "id": "minecraft:bamboo"
+    },
+    {
+      "id": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "minecraft:scaffolding",
+    "count": 6
+  }
+}

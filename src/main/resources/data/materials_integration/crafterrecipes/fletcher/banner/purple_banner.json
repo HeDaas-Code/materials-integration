@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:purple_dye"
+    },
+    {
+      "id": "minecraft:white_banner"
+    }
+  ],
+  "result": {
+    "id": "minecraft:purple_banner"
+  }
+}

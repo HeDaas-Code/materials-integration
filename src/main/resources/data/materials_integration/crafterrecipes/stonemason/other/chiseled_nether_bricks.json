@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "id": "minecraft:nether_bricks"
+    }
+  ],
+  "result": {
+    "id": "minecraft:chiseled_nether_bricks"
+  }
+}
