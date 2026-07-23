@@ -45,7 +45,7 @@ public class SortingWorkbenchMenu extends AbstractContainerMenu {
       this.inSlot = this.addSlot(new Slot(this.inputContainer, 0, 6, 71) {
          @Override
          public boolean mayPlace(ItemStack stack) {
-            return SortingWorkbenchRecipeManager.hasRecipeFor(stack);
+            return SortingWorkbenchRecipeManager.hasRecipeFor(SortingWorkbenchMenu.this.level, stack);
          }
       });
       this.addSlot(
@@ -205,9 +205,9 @@ public class SortingWorkbenchMenu extends AbstractContainerMenu {
       if (input.isEmpty()) {
          this.outputContainer.setItem(0, ItemStack.EMPTY);
          this.selectedOutputIndex = -1;
-      } else {
-         List<ItemStack> recipes = SortingWorkbenchRecipeManager.getRecipesFor(input);
-         this.availableOutputs.addAll(recipes);
+       } else {
+          List<ItemStack> recipes = SortingWorkbenchRecipeManager.getRecipesFor(this.level, input);
+          this.availableOutputs.addAll(recipes);
          if (this.selectedOutputIndex >= 0 && this.selectedOutputIndex < this.availableOutputs.size()) {
             ItemStack selectedOutput = this.availableOutputs.get(this.selectedOutputIndex).copy();
             selectedOutput.setCount(input.getCount());
